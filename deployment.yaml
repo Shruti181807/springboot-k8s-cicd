@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: crud-container
-          image: springboot-crud:1.0
-          imagePullPolicy: IfNotPresent
+          image: shrutidhore18/springboot-crud:latest
+          imagePullPolicy:  Always
           ports:
             - containerPort: 8080
